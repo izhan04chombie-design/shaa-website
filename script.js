@@ -1,21 +1,21 @@
-// 1️⃣ Simple Click Alert
+// 1ï¸âƒ£ Simple Click Alert
 function showMessage() {
-    alert("You are my favorite person in the world ❤️");
+    alert("I'm really really grateful for having u in my life. Not even once I regret of choosing u. I love you with all my heart princess Sha â¤ï¸");
 }
 
-// 2️⃣ Love Counter
+// 2ï¸âƒ£ Love Counter
 let love = 0;
 function increaseLove() {
     love++;
     document.getElementById("loveCount").innerText = love;
 
     if (love === 10) {
-        alert("You unlocked my heart forever 💍❤️");
+        alert("You unlocked my heart forever ðŸ’â¤ï¸");
         launchConfetti();
     }
 }
 
-// 3️⃣ Confetti Effect
+// 3ï¸âƒ£ Confetti Effect
 function launchConfetti() {
     confetti({
         particleCount: 150,
@@ -24,7 +24,7 @@ function launchConfetti() {
     });
 }
 
-// 4️⃣ Relationship Timer (Years, Months, Days)
+// 4ï¸âƒ£ Relationship Timer (Years, Months, Days)
 function updateRelationshipTime() {
     const anniversary = new Date("2023-11-26"); // YOUR DATE
     const now = new Date();
@@ -45,34 +45,34 @@ function updateRelationshipTime() {
     }
 
     document.getElementById("relationshipTime").innerText =
-        `${years} years, ${months} months, ${days} days ❤️`;
+        `${years} years, ${months} months, ${days} days â¤ï¸`;
 }
 updateRelationshipTime();
 
 // Optional: Auto-update every hour
 setInterval(updateRelationshipTime, 1000 * 60 * 60);
 
-// 5️⃣ Dark Mode Toggle
+// 5ï¸âƒ£ Dark Mode Toggle
 function toggleMode() {
     document.body.classList.toggle("dark-mode");
 }
 
-// 6️⃣ Secret Love Letter
+// 6ï¸âƒ£ Secret Love Letter
 function checkPassword() {
     const pass = document.getElementById("password").value;
     if (pass === "26112023") {  // Use your date or any secret code
         document.getElementById("secretMessage").innerText =
-            "You are my forever and always ❤️";
+            "You are the love of my life and I love you forever and ever â¤ï¸";
     } else {
-        alert("Wrong password 😜");
+        alert("Wrong password ðŸ˜œ");
     }
 }
 
-// 7️⃣ Floating Hearts Animation
+// 7ï¸âƒ£ Floating Hearts Animation
 setInterval(() => {
     const heart = document.createElement("div");
     heart.classList.add("heart");
-    heart.innerText = "💖";
+    heart.innerText = "ðŸ’–";
     heart.style.left = Math.random() * 100 + "vw";
     document.body.appendChild(heart);
 
