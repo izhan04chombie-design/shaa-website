@@ -5,6 +5,37 @@
     <title>For My Love 💕</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+<div id="shajianReminder" class="reminder">
+  ❤️ HAPPY SHAJIAN's DAY ❤️
+</div>
+
+<style>
+.reminder{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #ff4d6d;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 15px;
+  font-weight: bold;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  display:none;
+  animation: fadeIn 0.6s ease;
+}
+@keyframes fadeIn{
+  from{opacity:0; transform:translateY(20px)}
+  to{opacity:1; transform:translateY(0)}
+}
+</style>
+
+<script>
+const today = new Date();
+if (today.getDate() === 26) {
+  document.getElementById("shajianReminder").style.display = "block";
+}
+</script>
 <body>
 
 <h1>Hi My Princess 💖</h1>
@@ -112,4 +143,5 @@
 <script src="script.js"></script>
 
 </body>
+
 </html>
