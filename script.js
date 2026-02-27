@@ -1,6 +1,6 @@
 // 1ï¸âƒ£ Simple Click Alert
 function showMessage() {
-    alert("I'm really really grateful for having u in my life. Not even once I regret of choosing u. I love you with all my heart princess Sha â¤ï¸");
+    alert("I'm really really grateful for having u in my life. Not even once I regret of choosing u. I love you with all my heart princess Sha ❤️");
 }
 
 // 2ï¸âƒ£ Love Counter
@@ -10,7 +10,7 @@ function increaseLove() {
     document.getElementById("loveCount").innerText = love;
 
     if (love === 10) {
-        alert("You unlocked my heart forever ðŸ’â¤ï¸");
+        alert("You unlocked my heart forever ❤️");
         launchConfetti();
     }
 }
@@ -62,9 +62,9 @@ function checkPassword() {
     const pass = document.getElementById("password").value;
     if (pass === "26112023") {  // Use your date or any secret code
         document.getElementById("secretMessage").innerText =
-            "You are the love of my life and I love you forever and ever â¤ï¸";
+            "You are the love of my life and I love you forever and ever ❤️";
     } else {
-        alert("Wrong password ðŸ˜œ");
+        alert("Wrong password 🤪");
     }
 }
 
@@ -78,3 +78,4 @@ setInterval(() => {
 
     setTimeout(() => heart.remove(), 5000);
 }, 800);
+
