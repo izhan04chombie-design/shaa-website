@@ -45,7 +45,7 @@ function updateRelationshipTime() {
     }
 
     document.getElementById("relationshipTime").innerText =
-        `${years} years, ${months} months, ${days} days â¤ï¸`;
+        `${years} years, ${months} months, ${days} days ❤️;
 }
 updateRelationshipTime();
 
@@ -72,10 +72,11 @@ function checkPassword() {
 setInterval(() => {
     const heart = document.createElement("div");
     heart.classList.add("heart");
-    heart.innerText = "ðŸ’–";
+    heart.innerText = "❤️";
     heart.style.left = Math.random() * 100 + "vw";
     document.body.appendChild(heart);
 
     setTimeout(() => heart.remove(), 5000);
 }, 800);
+
 
